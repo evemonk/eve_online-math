@@ -3,7 +3,7 @@
 module EveOnline
   module Math
     # https://eveonline-third-party-documentation.readthedocs.io/en/latest/formulas/skillpoints.html
-    class SkillpointsPerLevel
+    class SkillPointsPerLevel
       attr_reader :level, :rank
 
       def initialize(level:, rank:)
