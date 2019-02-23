@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Igor Zubkov']
   spec.email         = ['igor.zubkov@gmail.com']
 
-  spec.summary       = %q{EveOnline. Math.}
-  spec.description   = %q{EveOnline. Math.}
+  spec.summary       = 'EveOnline. Math.'
+  spec.description   = 'EveOnline. Math.'
   spec.homepage      = 'https://github.com/evemonk/eve_online-math'
   spec.license       = 'MIT'
 
