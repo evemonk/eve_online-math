@@ -27,11 +27,11 @@ TODO: Write usage instructions here
 ### Skill points per level
 
 ```ruby
-EveOnline::Math::SkillPointsPerLevel.new(level: 1, rank: 8).value # => 2000.0
+EveOnline::Math::SkillPointsPerLevel.new(level: 1, rank: 8).value # => 2000
 
-EveOnline::Math::SkillPointsPerLevel.new(level: 1, rank: 16).value # => 4000.0
+EveOnline::Math::SkillPointsPerLevel.new(level: 1, rank: 16).value # => 4000
 
-EveOnline::Math::SkillPointsPerLevel.new(level: 5, rank: 16).value # => 4096000.0
+EveOnline::Math::SkillPointsPerLevel.new(level: 5, rank: 16).value # => 4096000
 ```
 
 
