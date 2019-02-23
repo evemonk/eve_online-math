@@ -12,7 +12,7 @@ module EveOnline
       end
 
       def value
-        @value ||= 2**(2.5 * (level - 1)) * 250 * rank
+        @value ||= Integer(2**(2.5 * (level - 1)) * 250 * rank)
       end
     end
   end
