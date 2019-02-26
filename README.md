@@ -34,6 +34,17 @@ EveOnline::Math::SkillPointsPerLevel.new(level: 1, rank: 16).value # => 4000
 EveOnline::Math::SkillPointsPerLevel.new(level: 5, rank: 16).value # => 4096000
 ```
 
+### Skill points per minute
+
+```ruby
+# Armor Layering: primary is intelligence, secondary is memory
+
+intelligence = 24
+
+memory = 24
+
+EveOnline::Math::SkillPointsPerMinute.new(primary: intelligence, secondary: memory).value # => 36.0
+```
 
 ## Development
 
