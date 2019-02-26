@@ -1,4 +1,9 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-# Specify your gem's dependencies in eve_online-math.gemspec
+source 'https://rubygems.org'
+
 gemspec
+
+gem 'pry'
+gem 'rubocop', require: false
+gem 'rubocop-rspec', require: false
